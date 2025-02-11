@@ -1,39 +1,25 @@
+<<<<<<< HEAD
+# fanqie-novel-downloader
+=======
 # fanqie-novel-downloader
 
 #### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
-
+这是一个用于下载番茄小说的Java程序，支持单线程和多线程，同时支持使用网络代理，还支持设定邮箱并在下载完小说后发送到指定邮箱
+作者b站：https://space.bilibili.com/389408676
+软件支持Windows，Mac，Linux，我会打包出windows和Linux的软件包，同时也会打包出jar包
+所有系统都可以通过使用jar包打开，先确保好你的电脑已经安装好jdk（Java）环境，然后执行 java -jar *******.jar即可直接运行
+详细的使用方法请参照我在b站发的视频
+如果config或者cookie出现错误，请删除当前目录的data文件夹后重新打开程序重新尝试
 #### 软件架构
-软件架构说明
+软件包windows和Linux都只支持amd64（x86_64）
+如果是其他系统或者其他架构的平台，请在系统安装好jdk（Java）环境后直接执行 java -jar *******.jar即可直接运行
+理论上支持所有系统和所有所有架构
 
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+安装和使用说明请参照我在b站发的视频呢
 
 
-#### 特技
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+>>>>>>> e67edc3 (Initial commit)

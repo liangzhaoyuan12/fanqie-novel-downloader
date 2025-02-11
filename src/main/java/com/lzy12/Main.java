@@ -331,7 +331,7 @@ public class Main {
     }
     //程序主菜单
     public static void mainMenu() {
-        System.out.println("本程序开源，项目地址：");
+        System.out.println("本程序开源，项目地址：\ngithub: https://github.com/liangzhaoyuan12/fanqie-novel-downloader\ngitee: https://gitee.com/liangzhaoyuan12/fanqie-novel-downloader");
         System.out.println("Developer: liangzhaoyuan12");
         System.out.println("请勿滥用此程序，勿用于商业用途");
         System.out.println("输入数字选择使用程序的功能");

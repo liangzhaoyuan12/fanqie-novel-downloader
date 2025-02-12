@@ -371,7 +371,11 @@ public class Main {
         switch (scanner.nextInt()){
             case 1:
                 scanner.nextLine();
-                System.out.println("请输入保存路径，如果不输入为空则下载至程序所在的目录");
+                System.out.println("请输入保存路径，如果不输入为空则为用户目录\n" +
+                        "windows: C:\\\\User\\用户\n" +
+                        "mac：/Users/用户\n" +
+                        "linux的普通用户：/home/用户\n" +
+                        "linux的root用户：/root");
                 String path= scanner.nextLine();
                 config.put("savePath",path);
                 writeConfigToJson(config);
